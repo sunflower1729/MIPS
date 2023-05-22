@@ -1,0 +1,619 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="pipe_mips_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="pipe_mips" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="46960000001fs"></ZoomEndTime>
+      <Cursor1Time time="1000000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="211"></NameColumnWidth>
+      <ValueColumnWidth column_width="195"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="8" />
+   <wvobject fp_name="/pipe_mips/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipe_mips/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="group505" type="group">
+      <obj_property name="label">MIPS</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/pipe_mips/WB_WB" type="array">
+         <obj_property name="ElementShortName">WB_WB[1:0]</obj_property>
+         <obj_property name="ObjectShortName">WB_WB[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/pipe_mips/PCSrc" type="logic">
+         <obj_property name="ElementShortName">PCSrc</obj_property>
+         <obj_property name="ObjectShortName">PCSrc</obj_property>
+      </wvobject>
+      <wvobject fp_name="/pipe_mips/Jump" type="logic">
+         <obj_property name="ElementShortName">Jump</obj_property>
+         <obj_property name="ObjectShortName">Jump</obj_property>
+      </wvobject>
+      <wvobject fp_name="/pipe_mips/RegWrite" type="logic">
+         <obj_property name="ElementShortName">RegWrite</obj_property>
+         <obj_property name="ObjectShortName">RegWrite</obj_property>
+      </wvobject>
+      <wvobject fp_name="/pipe_mips/ALUSrc" type="logic">
+         <obj_property name="ElementShortName">ALUSrc</obj_property>
+         <obj_property name="ObjectShortName">ALUSrc</obj_property>
+      </wvobject>
+      <wvobject fp_name="/pipe_mips/JAL" type="logic">
+         <obj_property name="ElementShortName">JAL</obj_property>
+         <obj_property name="ObjectShortName">JAL</obj_property>
+      </wvobject>
+      <wvobject fp_name="/pipe_mips/RegDst" type="logic">
+         <obj_property name="ElementShortName">RegDst</obj_property>
+         <obj_property name="ObjectShortName">RegDst</obj_property>
+      </wvobject>
+      <wvobject fp_name="/pipe_mips/MEMWrite" type="logic">
+         <obj_property name="ElementShortName">MEMWrite</obj_property>
+         <obj_property name="ObjectShortName">MEMWrite</obj_property>
+      </wvobject>
+      <wvobject fp_name="/pipe_mips/MEMRead" type="logic">
+         <obj_property name="ElementShortName">MEMRead</obj_property>
+         <obj_property name="ObjectShortName">MEMRead</obj_property>
+      </wvobject>
+      <wvobject fp_name="/pipe_mips/JR" type="logic">
+         <obj_property name="ElementShortName">JR</obj_property>
+         <obj_property name="ObjectShortName">JR</obj_property>
+      </wvobject>
+      <wvobject fp_name="/pipe_mips/MEMtoReg" type="logic">
+         <obj_property name="ElementShortName">MEMtoReg</obj_property>
+         <obj_property name="ObjectShortName">MEMtoReg</obj_property>
+      </wvobject>
+      <wvobject fp_name="/pipe_mips/zero" type="logic">
+         <obj_property name="ElementShortName">zero</obj_property>
+         <obj_property name="ObjectShortName">zero</obj_property>
+      </wvobject>
+      <wvobject fp_name="/pipe_mips/ID_inc_pc" type="array">
+         <obj_property name="ElementShortName">ID_inc_pc[31:0]</obj_property>
+         <obj_property name="ObjectShortName">ID_inc_pc[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/pipe_mips/Instruction" type="array">
+         <obj_property name="ElementShortName">Instruction[31:0]</obj_property>
+         <obj_property name="ObjectShortName">Instruction[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/pipe_mips/EX_inc_pc" type="array">
+         <obj_property name="ElementShortName">EX_inc_pc[31:0]</obj_property>
+         <obj_property name="ObjectShortName">EX_inc_pc[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/pipe_mips/Rs_val" type="array">
+         <obj_property name="ElementShortName">Rs_val[31:0]</obj_property>
+         <obj_property name="ObjectShortName">Rs_val[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/pipe_mips/EX_rt_val" type="array">
+         <obj_property name="ElementShortName">EX_rt_val[31:0]</obj_property>
+         <obj_property name="ObjectShortName">EX_rt_val[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/pipe_mips/imm32" type="array">
+         <obj_property name="ElementShortName">imm32[31:0]</obj_property>
+         <obj_property name="ObjectShortName">imm32[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/pipe_mips/rt" type="array">
+         <obj_property name="ElementShortName">rt[4:0]</obj_property>
+         <obj_property name="ObjectShortName">rt[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/pipe_mips/rd" type="array">
+         <obj_property name="ElementShortName">rd[4:0]</obj_property>
+         <obj_property name="ObjectShortName">rd[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/pipe_mips/imm26" type="array">
+         <obj_property name="ElementShortName">imm26[25:0]</obj_property>
+         <obj_property name="ObjectShortName">imm26[25:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/pipe_mips/Branch_pc" type="array">
+         <obj_property name="ElementShortName">Branch_pc[31:0]</obj_property>
+         <obj_property name="ObjectShortName">Branch_pc[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/pipe_mips/J_pc" type="array">
+         <obj_property name="ElementShortName">J_pc[31:0]</obj_property>
+         <obj_property name="ObjectShortName">J_pc[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/pipe_mips/MEM_Alu_result" type="array">
+         <obj_property name="ElementShortName">MEM_Alu_result[31:0]</obj_property>
+         <obj_property name="ObjectShortName">MEM_Alu_result[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/pipe_mips/MEM_rt_val" type="array">
+         <obj_property name="ElementShortName">MEM_rt_val[31:0]</obj_property>
+         <obj_property name="ObjectShortName">MEM_rt_val[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/pipe_mips/MEM_dest" type="array">
+         <obj_property name="ElementShortName">MEM_dest[4:0]</obj_property>
+         <obj_property name="ObjectShortName">MEM_dest[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/pipe_mips/Jump_pc" type="array">
+         <obj_property name="ElementShortName">Jump_pc[31:0]</obj_property>
+         <obj_property name="ObjectShortName">Jump_pc[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/pipe_mips/ReadData" type="array">
+         <obj_property name="ElementShortName">ReadData[31:0]</obj_property>
+         <obj_property name="ObjectShortName">ReadData[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/pipe_mips/WB_alu_result" type="array">
+         <obj_property name="ElementShortName">WB_alu_result[31:0]</obj_property>
+         <obj_property name="ObjectShortName">WB_alu_result[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/pipe_mips/WriteReg" type="array">
+         <obj_property name="ElementShortName">WriteReg[4:0]</obj_property>
+         <obj_property name="ObjectShortName">WriteReg[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/pipe_mips/WriteData" type="array">
+         <obj_property name="ElementShortName">WriteData[31:0]</obj_property>
+         <obj_property name="ObjectShortName">WriteData[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/pipe_mips/EX_WB" type="array">
+         <obj_property name="ElementShortName">EX_WB[1:0]</obj_property>
+         <obj_property name="ObjectShortName">EX_WB[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/pipe_mips/EX_M" type="array">
+         <obj_property name="ElementShortName">EX_M[4:0]</obj_property>
+         <obj_property name="ObjectShortName">EX_M[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/pipe_mips/EX_EX" type="array">
+         <obj_property name="ElementShortName">EX_EX[4:0]</obj_property>
+         <obj_property name="ObjectShortName">EX_EX[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/pipe_mips/WB_WB1" type="logic">
+         <obj_property name="ElementShortName">WB_WB1</obj_property>
+         <obj_property name="ObjectShortName">WB_WB1</obj_property>
+      </wvobject>
+      <wvobject fp_name="/pipe_mips/WB_WB0" type="logic">
+         <obj_property name="ElementShortName">WB_WB0</obj_property>
+         <obj_property name="ObjectShortName">WB_WB0</obj_property>
+      </wvobject>
+      <wvobject fp_name="/pipe_mips/ALUOp" type="array">
+         <obj_property name="ElementShortName">ALUOp[1:0]</obj_property>
+         <obj_property name="ObjectShortName">ALUOp[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/pipe_mips/MEM_WB" type="array">
+         <obj_property name="ElementShortName">MEM_WB[1:0]</obj_property>
+         <obj_property name="ObjectShortName">MEM_WB[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/pipe_mips/MEM_M" type="array">
+         <obj_property name="ElementShortName">MEM_M[4:0]</obj_property>
+         <obj_property name="ObjectShortName">MEM_M[4:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group506" type="group">
+      <obj_property name="label">IF</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/pipe_mips/u_IF_Stage/PCSrc" type="logic">
+         <obj_property name="ElementShortName">PCSrc</obj_property>
+         <obj_property name="ObjectShortName">PCSrc</obj_property>
+      </wvobject>
+      <wvobject fp_name="/pipe_mips/u_IF_Stage/Jump" type="logic">
+         <obj_property name="ElementShortName">Jump</obj_property>
+         <obj_property name="ObjectShortName">Jump</obj_property>
+      </wvobject>
+      <wvobject fp_name="/pipe_mips/u_IF_Stage/pipe_inc_pc" type="array">
+         <obj_property name="ElementShortName">pipe_inc_pc[31:0]</obj_property>
+         <obj_property name="ObjectShortName">pipe_inc_pc[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/pipe_mips/u_IF_Stage/pipe_instruction" type="array">
+         <obj_property name="ElementShortName">pipe_instruction[31:0]</obj_property>
+         <obj_property name="ObjectShortName">pipe_instruction[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/pipe_mips/u_IF_Stage/jump_pc" type="array">
+         <obj_property name="ElementShortName">jump_pc[31:0]</obj_property>
+         <obj_property name="ObjectShortName">jump_pc[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/pipe_mips/u_IF_Stage/Branch_pc" type="array">
+         <obj_property name="ElementShortName">Branch_pc[31:0]</obj_property>
+         <obj_property name="ObjectShortName">Branch_pc[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/pipe_mips/u_IF_Stage/Current_pc" type="array">
+         <obj_property name="ElementShortName">Current_pc[31:0]</obj_property>
+         <obj_property name="ObjectShortName">Current_pc[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/pipe_mips/u_IF_Stage/Next_pc" type="array">
+         <obj_property name="ElementShortName">Next_pc[31:0]</obj_property>
+         <obj_property name="ObjectShortName">Next_pc[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/pipe_mips/u_IF_Stage/Inc_pc" type="array">
+         <obj_property name="ElementShortName">Inc_pc[31:0]</obj_property>
+         <obj_property name="ObjectShortName">Inc_pc[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/pipe_mips/u_IF_Stage/Instruction" type="array">
+         <obj_property name="ElementShortName">Instruction[31:0]</obj_property>
+         <obj_property name="ObjectShortName">Instruction[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/pipe_mips/u_IF_Stage/PCSel" type="array">
+         <obj_property name="ElementShortName">PCSel[1:0]</obj_property>
+         <obj_property name="ObjectShortName">PCSel[1:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group507" type="group">
+      <obj_property name="label">ID</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/pipe_mips/u_ID_Stage/RegWrite" type="logic">
+         <obj_property name="ElementShortName">RegWrite</obj_property>
+         <obj_property name="ObjectShortName">RegWrite</obj_property>
+      </wvobject>
+      <wvobject fp_name="/pipe_mips/u_ID_Stage/WriteReg" type="array">
+         <obj_property name="ElementShortName">WriteReg[4:0]</obj_property>
+         <obj_property name="ObjectShortName">WriteReg[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/pipe_mips/u_ID_Stage/inc_pc" type="array">
+         <obj_property name="ElementShortName">inc_pc[31:0]</obj_property>
+         <obj_property name="ObjectShortName">inc_pc[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/pipe_mips/u_ID_Stage/instruction" type="array">
+         <obj_property name="ElementShortName">instruction[31:0]</obj_property>
+         <obj_property name="ObjectShortName">instruction[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/pipe_mips/u_ID_Stage/WriteData" type="array">
+         <obj_property name="ElementShortName">WriteData[31:0]</obj_property>
+         <obj_property name="ObjectShortName">WriteData[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/pipe_mips/u_ID_Stage/pipe_rt" type="array">
+         <obj_property name="ElementShortName">pipe_rt[4:0]</obj_property>
+         <obj_property name="ObjectShortName">pipe_rt[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/pipe_mips/u_ID_Stage/pipe_rd" type="array">
+         <obj_property name="ElementShortName">pipe_rd[4:0]</obj_property>
+         <obj_property name="ObjectShortName">pipe_rd[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/pipe_mips/u_ID_Stage/pipe_imm26" type="array">
+         <obj_property name="ElementShortName">pipe_imm26[25:0]</obj_property>
+         <obj_property name="ObjectShortName">pipe_imm26[25:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/pipe_mips/u_ID_Stage/pipe_rs_val" type="array">
+         <obj_property name="ElementShortName">pipe_rs_val[31:0]</obj_property>
+         <obj_property name="ObjectShortName">pipe_rs_val[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/pipe_mips/u_ID_Stage/pipe_rt_val" type="array">
+         <obj_property name="ElementShortName">pipe_rt_val[31:0]</obj_property>
+         <obj_property name="ObjectShortName">pipe_rt_val[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/pipe_mips/u_ID_Stage/pipe_imm32" type="array">
+         <obj_property name="ElementShortName">pipe_imm32[31:0]</obj_property>
+         <obj_property name="ObjectShortName">pipe_imm32[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/pipe_mips/u_ID_Stage/pipe_inc_pc" type="array">
+         <obj_property name="ElementShortName">pipe_inc_pc[31:0]</obj_property>
+         <obj_property name="ObjectShortName">pipe_inc_pc[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/pipe_mips/u_ID_Stage/pipe_WB" type="array">
+         <obj_property name="ElementShortName">pipe_WB[1:0]</obj_property>
+         <obj_property name="ObjectShortName">pipe_WB[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/pipe_mips/u_ID_Stage/pipe_M" type="array">
+         <obj_property name="ElementShortName">pipe_M[4:0]</obj_property>
+         <obj_property name="ObjectShortName">pipe_M[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/pipe_mips/u_ID_Stage/pipe_EX" type="array">
+         <obj_property name="ElementShortName">pipe_EX[4:0]</obj_property>
+         <obj_property name="ObjectShortName">pipe_EX[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/pipe_mips/u_ID_Stage/Rs_val" type="array">
+         <obj_property name="ElementShortName">Rs_val[31:0]</obj_property>
+         <obj_property name="ObjectShortName">Rs_val[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/pipe_mips/u_ID_Stage/Rt_val" type="array">
+         <obj_property name="ElementShortName">Rt_val[31:0]</obj_property>
+         <obj_property name="ObjectShortName">Rt_val[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/pipe_mips/u_ID_Stage/imm32" type="array">
+         <obj_property name="ElementShortName">imm32[31:0]</obj_property>
+         <obj_property name="ObjectShortName">imm32[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/pipe_mips/u_ID_Stage/rs" type="array">
+         <obj_property name="ElementShortName">rs[4:0]</obj_property>
+         <obj_property name="ObjectShortName">rs[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/pipe_mips/u_ID_Stage/rt" type="array">
+         <obj_property name="ElementShortName">rt[4:0]</obj_property>
+         <obj_property name="ObjectShortName">rt[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/pipe_mips/u_ID_Stage/rd" type="array">
+         <obj_property name="ElementShortName">rd[4:0]</obj_property>
+         <obj_property name="ObjectShortName">rd[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/pipe_mips/u_ID_Stage/offset" type="array">
+         <obj_property name="ElementShortName">offset[15:0]</obj_property>
+         <obj_property name="ObjectShortName">offset[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/pipe_mips/u_ID_Stage/imm26" type="array">
+         <obj_property name="ElementShortName">imm26[25:0]</obj_property>
+         <obj_property name="ObjectShortName">imm26[25:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/pipe_mips/u_ID_Stage/op_field" type="array">
+         <obj_property name="ElementShortName">op_field[5:0]</obj_property>
+         <obj_property name="ObjectShortName">op_field[5:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/pipe_mips/u_ID_Stage/WB" type="array">
+         <obj_property name="ElementShortName">WB[1:0]</obj_property>
+         <obj_property name="ObjectShortName">WB[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/pipe_mips/u_ID_Stage/M" type="array">
+         <obj_property name="ElementShortName">M[4:0]</obj_property>
+         <obj_property name="ObjectShortName">M[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/pipe_mips/u_ID_Stage/EX" type="array">
+         <obj_property name="ElementShortName">EX[4:0]</obj_property>
+         <obj_property name="ObjectShortName">EX[4:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group508" type="group">
+      <obj_property name="label">EX</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/pipe_mips/u_EX_Stage/ALUSrc" type="logic">
+         <obj_property name="ElementShortName">ALUSrc</obj_property>
+         <obj_property name="ObjectShortName">ALUSrc</obj_property>
+      </wvobject>
+      <wvobject fp_name="/pipe_mips/u_EX_Stage/RegDst" type="logic">
+         <obj_property name="ElementShortName">RegDst</obj_property>
+         <obj_property name="ObjectShortName">RegDst</obj_property>
+      </wvobject>
+      <wvobject fp_name="/pipe_mips/u_EX_Stage/JAL" type="logic">
+         <obj_property name="ElementShortName">JAL</obj_property>
+         <obj_property name="ObjectShortName">JAL</obj_property>
+      </wvobject>
+      <wvobject fp_name="/pipe_mips/u_EX_Stage/rt" type="array">
+         <obj_property name="ElementShortName">rt[4:0]</obj_property>
+         <obj_property name="ObjectShortName">rt[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/pipe_mips/u_EX_Stage/rd" type="array">
+         <obj_property name="ElementShortName">rd[4:0]</obj_property>
+         <obj_property name="ObjectShortName">rd[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/pipe_mips/u_EX_Stage/imm26" type="array">
+         <obj_property name="ElementShortName">imm26[25:0]</obj_property>
+         <obj_property name="ObjectShortName">imm26[25:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/pipe_mips/u_EX_Stage/inc_pc" type="array">
+         <obj_property name="ElementShortName">inc_pc[31:0]</obj_property>
+         <obj_property name="ObjectShortName">inc_pc[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/pipe_mips/u_EX_Stage/rs_val" type="array">
+         <obj_property name="ElementShortName">rs_val[31:0]</obj_property>
+         <obj_property name="ObjectShortName">rs_val[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/pipe_mips/u_EX_Stage/rt_val" type="array">
+         <obj_property name="ElementShortName">rt_val[31:0]</obj_property>
+         <obj_property name="ObjectShortName">rt_val[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/pipe_mips/u_EX_Stage/imm32" type="array">
+         <obj_property name="ElementShortName">imm32[31:0]</obj_property>
+         <obj_property name="ObjectShortName">imm32[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/pipe_mips/u_EX_Stage/pipe_zero" type="logic">
+         <obj_property name="ElementShortName">pipe_zero</obj_property>
+         <obj_property name="ObjectShortName">pipe_zero</obj_property>
+      </wvobject>
+      <wvobject fp_name="/pipe_mips/u_EX_Stage/pipe_dest" type="array">
+         <obj_property name="ElementShortName">pipe_dest[4:0]</obj_property>
+         <obj_property name="ObjectShortName">pipe_dest[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/pipe_mips/u_EX_Stage/pipe_j_pc" type="array">
+         <obj_property name="ElementShortName">pipe_j_pc[31:0]</obj_property>
+         <obj_property name="ObjectShortName">pipe_j_pc[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/pipe_mips/u_EX_Stage/pipe_branch_pc" type="array">
+         <obj_property name="ElementShortName">pipe_branch_pc[31:0]</obj_property>
+         <obj_property name="ObjectShortName">pipe_branch_pc[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/pipe_mips/u_EX_Stage/pipe_alu_result" type="array">
+         <obj_property name="ElementShortName">pipe_alu_result[31:0]</obj_property>
+         <obj_property name="ObjectShortName">pipe_alu_result[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/pipe_mips/u_EX_Stage/pipe_rt_val" type="array">
+         <obj_property name="ElementShortName">pipe_rt_val[31:0]</obj_property>
+         <obj_property name="ObjectShortName">pipe_rt_val[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/pipe_mips/u_EX_Stage/WB" type="array">
+         <obj_property name="ElementShortName">WB[1:0]</obj_property>
+         <obj_property name="ObjectShortName">WB[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/pipe_mips/u_EX_Stage/ALUOp" type="array">
+         <obj_property name="ElementShortName">ALUOp[1:0]</obj_property>
+         <obj_property name="ObjectShortName">ALUOp[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/pipe_mips/u_EX_Stage/M" type="array">
+         <obj_property name="ElementShortName">M[4:0]</obj_property>
+         <obj_property name="ObjectShortName">M[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/pipe_mips/u_EX_Stage/pipe_WB" type="array">
+         <obj_property name="ElementShortName">pipe_WB[1:0]</obj_property>
+         <obj_property name="ObjectShortName">pipe_WB[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/pipe_mips/u_EX_Stage/pipe_M" type="array">
+         <obj_property name="ElementShortName">pipe_M[4:0]</obj_property>
+         <obj_property name="ObjectShortName">pipe_M[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/pipe_mips/u_EX_Stage/pipe_JR" type="logic">
+         <obj_property name="ElementShortName">pipe_JR</obj_property>
+         <obj_property name="ObjectShortName">pipe_JR</obj_property>
+      </wvobject>
+      <wvobject fp_name="/pipe_mips/u_EX_Stage/Alu_sel" type="array">
+         <obj_property name="ElementShortName">Alu_sel[2:0]</obj_property>
+         <obj_property name="ObjectShortName">Alu_sel[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/pipe_mips/u_EX_Stage/Alu_in1" type="array">
+         <obj_property name="ElementShortName">Alu_in1[31:0]</obj_property>
+         <obj_property name="ObjectShortName">Alu_in1[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/pipe_mips/u_EX_Stage/Alu_in2" type="array">
+         <obj_property name="ElementShortName">Alu_in2[31:0]</obj_property>
+         <obj_property name="ObjectShortName">Alu_in2[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/pipe_mips/u_EX_Stage/Alu_result" type="array">
+         <obj_property name="ElementShortName">Alu_result[31:0]</obj_property>
+         <obj_property name="ObjectShortName">Alu_result[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/pipe_mips/u_EX_Stage/Branch_pc" type="array">
+         <obj_property name="ElementShortName">Branch_pc[31:0]</obj_property>
+         <obj_property name="ObjectShortName">Branch_pc[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/pipe_mips/u_EX_Stage/Sll_imm26" type="array">
+         <obj_property name="ElementShortName">Sll_imm26[27:0]</obj_property>
+         <obj_property name="ObjectShortName">Sll_imm26[27:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/pipe_mips/u_EX_Stage/Sll_imm32" type="array">
+         <obj_property name="ElementShortName">Sll_imm32[31:0]</obj_property>
+         <obj_property name="ObjectShortName">Sll_imm32[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/pipe_mips/u_EX_Stage/Rt_val_adv" type="array">
+         <obj_property name="ElementShortName">Rt_val_adv[31:0]</obj_property>
+         <obj_property name="ObjectShortName">Rt_val_adv[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/pipe_mips/u_EX_Stage/RtTo31" type="array">
+         <obj_property name="ElementShortName">RtTo31[4:0]</obj_property>
+         <obj_property name="ObjectShortName">RtTo31[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/pipe_mips/u_EX_Stage/dest" type="array">
+         <obj_property name="ElementShortName">dest[4:0]</obj_property>
+         <obj_property name="ObjectShortName">dest[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/pipe_mips/u_EX_Stage/J_pc" type="array">
+         <obj_property name="ElementShortName">J_pc[31:0]</obj_property>
+         <obj_property name="ObjectShortName">J_pc[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/pipe_mips/u_EX_Stage/lmm32_5_0" type="array">
+         <obj_property name="ElementShortName">lmm32_5_0[5:0]</obj_property>
+         <obj_property name="ObjectShortName">lmm32_5_0[5:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/pipe_mips/u_EX_Stage/ALUOp1" type="logic">
+         <obj_property name="ElementShortName">ALUOp1</obj_property>
+         <obj_property name="ObjectShortName">ALUOp1</obj_property>
+      </wvobject>
+      <wvobject fp_name="/pipe_mips/u_EX_Stage/JR" type="logic">
+         <obj_property name="ElementShortName">JR</obj_property>
+         <obj_property name="ObjectShortName">JR</obj_property>
+      </wvobject>
+      <wvobject fp_name="/pipe_mips/u_EX_Stage/Zero" type="logic">
+         <obj_property name="ElementShortName">Zero</obj_property>
+         <obj_property name="ObjectShortName">Zero</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group509" type="group">
+      <obj_property name="label">MEM</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/pipe_mips/u_MEM_Stage/JR" type="logic">
+         <obj_property name="ElementShortName">JR</obj_property>
+         <obj_property name="ObjectShortName">JR</obj_property>
+      </wvobject>
+      <wvobject fp_name="/pipe_mips/u_MEM_Stage/dest" type="array">
+         <obj_property name="ElementShortName">dest[4:0]</obj_property>
+         <obj_property name="ObjectShortName">dest[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/pipe_mips/u_MEM_Stage/J_pc" type="array">
+         <obj_property name="ElementShortName">J_pc[31:0]</obj_property>
+         <obj_property name="ObjectShortName">J_pc[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/pipe_mips/u_MEM_Stage/alu_result" type="array">
+         <obj_property name="ElementShortName">alu_result[31:0]</obj_property>
+         <obj_property name="ObjectShortName">alu_result[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/pipe_mips/u_MEM_Stage/rt_val" type="array">
+         <obj_property name="ElementShortName">rt_val[31:0]</obj_property>
+         <obj_property name="ObjectShortName">rt_val[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/pipe_mips/u_MEM_Stage/pipe_dest" type="array">
+         <obj_property name="ElementShortName">pipe_dest[4:0]</obj_property>
+         <obj_property name="ObjectShortName">pipe_dest[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/pipe_mips/u_MEM_Stage/Jump_pc" type="array">
+         <obj_property name="ElementShortName">Jump_pc[31:0]</obj_property>
+         <obj_property name="ObjectShortName">Jump_pc[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/pipe_mips/u_MEM_Stage/pipe_ReadData" type="array">
+         <obj_property name="ElementShortName">pipe_ReadData[31:0]</obj_property>
+         <obj_property name="ObjectShortName">pipe_ReadData[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/pipe_mips/u_MEM_Stage/pipe_alu_result" type="array">
+         <obj_property name="ElementShortName">pipe_alu_result[31:0]</obj_property>
+         <obj_property name="ObjectShortName">pipe_alu_result[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/pipe_mips/u_MEM_Stage/WB" type="array">
+         <obj_property name="ElementShortName">WB[1:0]</obj_property>
+         <obj_property name="ObjectShortName">WB[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/pipe_mips/u_MEM_Stage/MEM_M" type="array">
+         <obj_property name="ElementShortName">MEM_M[4:0]</obj_property>
+         <obj_property name="ObjectShortName">MEM_M[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/pipe_mips/u_MEM_Stage/zero" type="logic">
+         <obj_property name="ElementShortName">zero</obj_property>
+         <obj_property name="ObjectShortName">zero</obj_property>
+      </wvobject>
+      <wvobject fp_name="/pipe_mips/u_MEM_Stage/pipe_WB" type="array">
+         <obj_property name="ElementShortName">pipe_WB[1:0]</obj_property>
+         <obj_property name="ObjectShortName">pipe_WB[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/pipe_mips/u_MEM_Stage/Jump" type="logic">
+         <obj_property name="ElementShortName">Jump</obj_property>
+         <obj_property name="ObjectShortName">Jump</obj_property>
+      </wvobject>
+      <wvobject fp_name="/pipe_mips/u_MEM_Stage/PCSrc" type="logic">
+         <obj_property name="ElementShortName">PCSrc</obj_property>
+         <obj_property name="ObjectShortName">PCSrc</obj_property>
+      </wvobject>
+      <wvobject fp_name="/pipe_mips/u_MEM_Stage/ReadData" type="array">
+         <obj_property name="ElementShortName">ReadData[31:0]</obj_property>
+         <obj_property name="ObjectShortName">ReadData[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/pipe_mips/u_MEM_Stage/J" type="logic">
+         <obj_property name="ElementShortName">J</obj_property>
+         <obj_property name="ObjectShortName">J</obj_property>
+      </wvobject>
+      <wvobject fp_name="/pipe_mips/u_MEM_Stage/Branch" type="logic">
+         <obj_property name="ElementShortName">Branch</obj_property>
+         <obj_property name="ObjectShortName">Branch</obj_property>
+      </wvobject>
+      <wvobject fp_name="/pipe_mips/u_MEM_Stage/BranchN" type="logic">
+         <obj_property name="ElementShortName">BranchN</obj_property>
+         <obj_property name="ObjectShortName">BranchN</obj_property>
+      </wvobject>
+      <wvobject fp_name="/pipe_mips/u_MEM_Stage/MEMRead" type="logic">
+         <obj_property name="ElementShortName">MEMRead</obj_property>
+         <obj_property name="ObjectShortName">MEMRead</obj_property>
+      </wvobject>
+      <wvobject fp_name="/pipe_mips/u_MEM_Stage/MEMWrite" type="logic">
+         <obj_property name="ElementShortName">MEMWrite</obj_property>
+         <obj_property name="ObjectShortName">MEMWrite</obj_property>
+      </wvobject>
+      <wvobject fp_name="/pipe_mips/u_MEM_Stage/PCSrc1" type="logic">
+         <obj_property name="ElementShortName">PCSrc1</obj_property>
+         <obj_property name="ObjectShortName">PCSrc1</obj_property>
+      </wvobject>
+      <wvobject fp_name="/pipe_mips/u_MEM_Stage/PCSrc2" type="logic">
+         <obj_property name="ElementShortName">PCSrc2</obj_property>
+         <obj_property name="ObjectShortName">PCSrc2</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group510" type="group">
+      <obj_property name="label">WB</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/pipe_mips/u_WB_Stage/MemtoReg" type="logic">
+         <obj_property name="ElementShortName">MemtoReg</obj_property>
+         <obj_property name="ObjectShortName">MemtoReg</obj_property>
+      </wvobject>
+      <wvobject fp_name="/pipe_mips/u_WB_Stage/ReadData" type="array">
+         <obj_property name="ElementShortName">ReadData[31:0]</obj_property>
+         <obj_property name="ObjectShortName">ReadData[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/pipe_mips/u_WB_Stage/alu_result" type="array">
+         <obj_property name="ElementShortName">alu_result[31:0]</obj_property>
+         <obj_property name="ObjectShortName">alu_result[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/pipe_mips/u_WB_Stage/WriteData" type="array">
+         <obj_property name="ElementShortName">WriteData[31:0]</obj_property>
+         <obj_property name="ObjectShortName">WriteData[31:0]</obj_property>
+      </wvobject>
+   </wvobject>
+</wave_config>

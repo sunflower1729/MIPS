@@ -1,0 +1,214 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Fri May 12 20:28:15 2023
+# Process ID: 21480
+# Current directory: C:/Users/sunfl/verilog/MIPS
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent17872 C:\Users\sunfl\verilog\MIPS\MIPS.xpr
+# Log file: C:/Users/sunfl/verilog/MIPS/vivado.log
+# Journal file: C:/Users/sunfl/verilog/MIPS\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/sunfl/verilog/MIPS/MIPS.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Vivado/2018.3/data/ip'.
+add_files -norecurse {C:/Users/sunfl/verilog/MIPS/MIPS.srcs/sources_1/new/ALU.v C:/Users/sunfl/verilog/MIPS/MIPS.srcs/sources_1/new/D_Memory.v C:/Users/sunfl/verilog/MIPS/MIPS.srcs/sources_1/new/Register1.v C:/Users/sunfl/verilog/MIPS/MIPS.srcs/sources_1/new/pc_4.v C:/Users/sunfl/verilog/MIPS/MIPS.srcs/sources_1/new/Mux2_5.v C:/Users/sunfl/verilog/MIPS/MIPS.srcs/sources_1/new/Mux3_32.v C:/Users/sunfl/verilog/MIPS/MIPS.srcs/sources_1/new/Register32.v C:/Users/sunfl/verilog/MIPS/MIPS.srcs/sources_1/new/Control.v C:/Users/sunfl/verilog/MIPS/MIPS.srcs/sources_1/new/Mux2_32A.v C:/Users/sunfl/verilog/MIPS/MIPS.srcs/sources_1/new/Shift2_28.v C:/Users/sunfl/verilog/MIPS/MIPS.srcs/sources_1/new/SignExtender.v C:/Users/sunfl/verilog/MIPS/MIPS.srcs/sources_1/new/I_Memory.v C:/Users/sunfl/verilog/MIPS/MIPS.srcs/sources_1/new/Register1_5.v C:/Users/sunfl/verilog/MIPS/MIPS.srcs/sources_1/new/Register1_26.v C:/Users/sunfl/verilog/MIPS/MIPS.srcs/sources_1/new/Register1_2.v C:/Users/sunfl/verilog/MIPS/MIPS.srcs/sources_1/new/Register1_1.v C:/Users/sunfl/verilog/MIPS/MIPS.srcs/sources_1/new/WB_Stage.v C:/Users/sunfl/verilog/MIPS/MIPS.srcs/sources_1/new/IF_Stage.v C:/Users/sunfl/verilog/MIPS/MIPS.srcs/sources_1/new/MEM_Stage.v C:/Users/sunfl/verilog/MIPS/MIPS.srcs/sources_1/new/ID_Stage.v C:/Users/sunfl/verilog/MIPS/MIPS.srcs/sources_1/new/Mux2_32.v C:/Users/sunfl/verilog/MIPS/MIPS.srcs/sources_1/new/JR_con.v C:/Users/sunfl/verilog/MIPS/MIPS.srcs/sources_1/new/Shift2_32.v C:/Users/sunfl/verilog/MIPS/MIPS.srcs/sources_1/new/ALU_con.v C:/Users/sunfl/verilog/MIPS/MIPS.srcs/sources_1/new/EX_Stage.v C:/Users/sunfl/verilog/MIPS/MIPS.srcs/sources_1/new/b.v C:/Users/sunfl/verilog/MIPS/MIPS.srcs/sources_1/new/Mux2_5A.v C:/Users/sunfl/verilog/MIPS/MIPS.srcs/sources_1/new/pipe_mips.v C:/Users/sunfl/verilog/MIPS/MIPS.srcs/sources_1/new/branch_adder.v}
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+export_ip_user_files -of_objects  [get_files C:/Users/sunfl/verilog/MIPS/MIPS.srcs/sources_1/new/b.v] -no_script -reset -force -quiet
+remove_files  C:/Users/sunfl/verilog/MIPS/MIPS.srcs/sources_1/new/b.v
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/sunfl/verilog/MIPS/MIPS.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'pipe_mips' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/sunfl/verilog/MIPS/MIPS.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj pipe_mips_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/sunfl/verilog/MIPS/MIPS.srcs/sources_1/new/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/sunfl/verilog/MIPS/MIPS.srcs/sources_1/new/ALU_con.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU_con
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/sunfl/verilog/MIPS/MIPS.srcs/sources_1/new/Control.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Control
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/sunfl/verilog/MIPS/MIPS.srcs/sources_1/new/D_Memory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module D_Memory
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/sunfl/verilog/MIPS/MIPS.srcs/sources_1/new/EX_Stage.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EX_Stage
+INFO: [VRFC 10-2458] undeclared symbol ALUOp1, assumed default net type wire [C:/Users/sunfl/verilog/MIPS/MIPS.srcs/sources_1/new/EX_Stage.v:54]
+INFO: [VRFC 10-2458] undeclared symbol inst, assumed default net type wire [C:/Users/sunfl/verilog/MIPS/MIPS.srcs/sources_1/new/EX_Stage.v:57]
+INFO: [VRFC 10-2458] undeclared symbol alu_op, assumed default net type wire [C:/Users/sunfl/verilog/MIPS/MIPS.srcs/sources_1/new/EX_Stage.v:58]
+INFO: [VRFC 10-2458] undeclared symbol ctrl, assumed default net type wire [C:/Users/sunfl/verilog/MIPS/MIPS.srcs/sources_1/new/EX_Stage.v:59]
+INFO: [VRFC 10-2458] undeclared symbol func, assumed default net type wire [C:/Users/sunfl/verilog/MIPS/MIPS.srcs/sources_1/new/EX_Stage.v:64]
+INFO: [VRFC 10-2458] undeclared symbol DataIn, assumed default net type wire [C:/Users/sunfl/verilog/MIPS/MIPS.srcs/sources_1/new/EX_Stage.v:71]
+INFO: [VRFC 10-2458] undeclared symbol DataOut, assumed default net type wire [C:/Users/sunfl/verilog/MIPS/MIPS.srcs/sources_1/new/EX_Stage.v:72]
+INFO: [VRFC 10-2458] undeclared symbol crtl, assumed default net type wire [C:/Users/sunfl/verilog/MIPS/MIPS.srcs/sources_1/new/EX_Stage.v:91]
+INFO: [VRFC 10-2458] undeclared symbol in1, assumed default net type wire [C:/Users/sunfl/verilog/MIPS/MIPS.srcs/sources_1/new/EX_Stage.v:92]
+INFO: [VRFC 10-2458] undeclared symbol in2, assumed default net type wire [C:/Users/sunfl/verilog/MIPS/MIPS.srcs/sources_1/new/EX_Stage.v:93]
+INFO: [VRFC 10-2458] undeclared symbol zero, assumed default net type wire [C:/Users/sunfl/verilog/MIPS/MIPS.srcs/sources_1/new/EX_Stage.v:94]
+INFO: [VRFC 10-2458] undeclared symbol out, assumed default net type wire [C:/Users/sunfl/verilog/MIPS/MIPS.srcs/sources_1/new/EX_Stage.v:95]
+INFO: [VRFC 10-2458] undeclared symbol out_data, assumed default net type wire [C:/Users/sunfl/verilog/MIPS/MIPS.srcs/sources_1/new/EX_Stage.v:101]
+INFO: [VRFC 10-2458] undeclared symbol in, assumed default net type wire [C:/Users/sunfl/verilog/MIPS/MIPS.srcs/sources_1/new/EX_Stage.v:105]
+INFO: [VRFC 10-2458] undeclared symbol sel, assumed default net type wire [C:/Users/sunfl/verilog/MIPS/MIPS.srcs/sources_1/new/EX_Stage.v:116]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/sunfl/verilog/MIPS/MIPS.srcs/sources_1/new/ID_Stage.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ID_Stage
+INFO: [VRFC 10-2458] undeclared symbol MemtoReg, assumed default net type wire [C:/Users/sunfl/verilog/MIPS/MIPS.srcs/sources_1/new/ID_Stage.v:59]
+INFO: [VRFC 10-2458] undeclared symbol Jump, assumed default net type wire [C:/Users/sunfl/verilog/MIPS/MIPS.srcs/sources_1/new/ID_Stage.v:60]
+INFO: [VRFC 10-2458] undeclared symbol Branch, assumed default net type wire [C:/Users/sunfl/verilog/MIPS/MIPS.srcs/sources_1/new/ID_Stage.v:61]
+INFO: [VRFC 10-2458] undeclared symbol BranchN, assumed default net type wire [C:/Users/sunfl/verilog/MIPS/MIPS.srcs/sources_1/new/ID_Stage.v:62]
+INFO: [VRFC 10-2458] undeclared symbol MemRead, assumed default net type wire [C:/Users/sunfl/verilog/MIPS/MIPS.srcs/sources_1/new/ID_Stage.v:63]
+INFO: [VRFC 10-2458] undeclared symbol MemWrite, assumed default net type wire [C:/Users/sunfl/verilog/MIPS/MIPS.srcs/sources_1/new/ID_Stage.v:64]
+INFO: [VRFC 10-2458] undeclared symbol JAL, assumed default net type wire [C:/Users/sunfl/verilog/MIPS/MIPS.srcs/sources_1/new/ID_Stage.v:65]
+INFO: [VRFC 10-2458] undeclared symbol RegDst, assumed default net type wire [C:/Users/sunfl/verilog/MIPS/MIPS.srcs/sources_1/new/ID_Stage.v:66]
+INFO: [VRFC 10-2458] undeclared symbol ALUOp, assumed default net type wire [C:/Users/sunfl/verilog/MIPS/MIPS.srcs/sources_1/new/ID_Stage.v:67]
+INFO: [VRFC 10-2458] undeclared symbol ALUSrc, assumed default net type wire [C:/Users/sunfl/verilog/MIPS/MIPS.srcs/sources_1/new/ID_Stage.v:68]
+INFO: [VRFC 10-2458] undeclared symbol DataIn, assumed default net type wire [C:/Users/sunfl/verilog/MIPS/MIPS.srcs/sources_1/new/ID_Stage.v:74]
+INFO: [VRFC 10-2458] undeclared symbol DataOut, assumed default net type wire [C:/Users/sunfl/verilog/MIPS/MIPS.srcs/sources_1/new/ID_Stage.v:75]
+INFO: [VRFC 10-2458] undeclared symbol ReadReg1, assumed default net type wire [C:/Users/sunfl/verilog/MIPS/MIPS.srcs/sources_1/new/ID_Stage.v:97]
+INFO: [VRFC 10-2458] undeclared symbol ReadReg2, assumed default net type wire [C:/Users/sunfl/verilog/MIPS/MIPS.srcs/sources_1/new/ID_Stage.v:98]
+INFO: [VRFC 10-2458] undeclared symbol ReadData1, assumed default net type wire [C:/Users/sunfl/verilog/MIPS/MIPS.srcs/sources_1/new/ID_Stage.v:101]
+INFO: [VRFC 10-2458] undeclared symbol ReadData2, assumed default net type wire [C:/Users/sunfl/verilog/MIPS/MIPS.srcs/sources_1/new/ID_Stage.v:102]
+INFO: [VRFC 10-2458] undeclared symbol in, assumed default net type wire [C:/Users/sunfl/verilog/MIPS/MIPS.srcs/sources_1/new/ID_Stage.v:106]
+INFO: [VRFC 10-2458] undeclared symbol out, assumed default net type wire [C:/Users/sunfl/verilog/MIPS/MIPS.srcs/sources_1/new/ID_Stage.v:107]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/sunfl/verilog/MIPS/MIPS.srcs/sources_1/new/IF_Stage.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IF_Stage
+INFO: [VRFC 10-2458] undeclared symbol DataIn, assumed default net type wire [C:/Users/sunfl/verilog/MIPS/MIPS.srcs/sources_1/new/IF_Stage.v:36]
+INFO: [VRFC 10-2458] undeclared symbol DataOut, assumed default net type wire [C:/Users/sunfl/verilog/MIPS/MIPS.srcs/sources_1/new/IF_Stage.v:37]
+INFO: [VRFC 10-2458] undeclared symbol in_data, assumed default net type wire [C:/Users/sunfl/verilog/MIPS/MIPS.srcs/sources_1/new/IF_Stage.v:41]
+INFO: [VRFC 10-2458] undeclared symbol out_data, assumed default net type wire [C:/Users/sunfl/verilog/MIPS/MIPS.srcs/sources_1/new/IF_Stage.v:42]
+INFO: [VRFC 10-2458] undeclared symbol address, assumed default net type wire [C:/Users/sunfl/verilog/MIPS/MIPS.srcs/sources_1/new/IF_Stage.v:46]
+INFO: [VRFC 10-2458] undeclared symbol MemData, assumed default net type wire [C:/Users/sunfl/verilog/MIPS/MIPS.srcs/sources_1/new/IF_Stage.v:48]
+INFO: [VRFC 10-2458] undeclared symbol in1, assumed default net type wire [C:/Users/sunfl/verilog/MIPS/MIPS.srcs/sources_1/new/IF_Stage.v:52]
+INFO: [VRFC 10-2458] undeclared symbol in2, assumed default net type wire [C:/Users/sunfl/verilog/MIPS/MIPS.srcs/sources_1/new/IF_Stage.v:53]
+INFO: [VRFC 10-2458] undeclared symbol in3, assumed default net type wire [C:/Users/sunfl/verilog/MIPS/MIPS.srcs/sources_1/new/IF_Stage.v:54]
+INFO: [VRFC 10-2458] undeclared symbol sel, assumed default net type wire [C:/Users/sunfl/verilog/MIPS/MIPS.srcs/sources_1/new/IF_Stage.v:55]
+INFO: [VRFC 10-2458] undeclared symbol out, assumed default net type wire [C:/Users/sunfl/verilog/MIPS/MIPS.srcs/sources_1/new/IF_Stage.v:56]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/sunfl/verilog/MIPS/MIPS.srcs/sources_1/new/I_Memory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module I_Memory
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/sunfl/verilog/MIPS/MIPS.srcs/sources_1/new/JR_con.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module JR_con
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/sunfl/verilog/MIPS/MIPS.srcs/sources_1/new/MEM_Stage.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MEM_Stage
+INFO: [VRFC 10-2458] undeclared symbol DataIn, assumed default net type wire [C:/Users/sunfl/verilog/MIPS/MIPS.srcs/sources_1/new/MEM_Stage.v:51]
+INFO: [VRFC 10-2458] undeclared symbol DataOut, assumed default net type wire [C:/Users/sunfl/verilog/MIPS/MIPS.srcs/sources_1/new/MEM_Stage.v:52]
+INFO: [VRFC 10-2458] undeclared symbol MemRead, assumed default net type wire [C:/Users/sunfl/verilog/MIPS/MIPS.srcs/sources_1/new/MEM_Stage.v:57]
+INFO: [VRFC 10-2458] undeclared symbol MemWrite, assumed default net type wire [C:/Users/sunfl/verilog/MIPS/MIPS.srcs/sources_1/new/MEM_Stage.v:58]
+INFO: [VRFC 10-2458] undeclared symbol address, assumed default net type wire [C:/Users/sunfl/verilog/MIPS/MIPS.srcs/sources_1/new/MEM_Stage.v:59]
+INFO: [VRFC 10-2458] undeclared symbol Write_data, assumed default net type wire [C:/Users/sunfl/verilog/MIPS/MIPS.srcs/sources_1/new/MEM_Stage.v:60]
+INFO: [VRFC 10-2458] undeclared symbol in1, assumed default net type wire [C:/Users/sunfl/verilog/MIPS/MIPS.srcs/sources_1/new/MEM_Stage.v:65]
+INFO: [VRFC 10-2458] undeclared symbol in2, assumed default net type wire [C:/Users/sunfl/verilog/MIPS/MIPS.srcs/sources_1/new/MEM_Stage.v:66]
+INFO: [VRFC 10-2458] undeclared symbol sel, assumed default net type wire [C:/Users/sunfl/verilog/MIPS/MIPS.srcs/sources_1/new/MEM_Stage.v:67]
+INFO: [VRFC 10-2458] undeclared symbol out, assumed default net type wire [C:/Users/sunfl/verilog/MIPS/MIPS.srcs/sources_1/new/MEM_Stage.v:68]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/sunfl/verilog/MIPS/MIPS.srcs/sources_1/new/Mux2_32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mux2_32
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/sunfl/verilog/MIPS/MIPS.srcs/sources_1/new/Mux2_32A.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mux2_32A
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/sunfl/verilog/MIPS/MIPS.srcs/sources_1/new/Mux2_5.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mux2_5
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/sunfl/verilog/MIPS/MIPS.srcs/sources_1/new/Mux2_5A.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mux2_5A
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/sunfl/verilog/MIPS/MIPS.srcs/sources_1/new/Mux3_32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mux3_32
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/sunfl/verilog/MIPS/MIPS.srcs/sources_1/new/Register1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Register1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/sunfl/verilog/MIPS/MIPS.srcs/sources_1/new/Register1_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Register1_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/sunfl/verilog/MIPS/MIPS.srcs/sources_1/new/Register1_2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Register1_2
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/sunfl/verilog/MIPS/MIPS.srcs/sources_1/new/Register1_26.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Register1_26
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/sunfl/verilog/MIPS/MIPS.srcs/sources_1/new/Register1_5.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Register1_5
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/sunfl/verilog/MIPS/MIPS.srcs/sources_1/new/Register32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Register32
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/sunfl/verilog/MIPS/MIPS.srcs/sources_1/new/Shift2_28.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Shift2_28
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/sunfl/verilog/MIPS/MIPS.srcs/sources_1/new/Shift2_32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Shift2_32
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/sunfl/verilog/MIPS/MIPS.srcs/sources_1/new/SignExtender.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SignExtender
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/sunfl/verilog/MIPS/MIPS.srcs/sources_1/new/WB_Stage.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module WB_Stage
+INFO: [VRFC 10-2458] undeclared symbol in1, assumed default net type wire [C:/Users/sunfl/verilog/MIPS/MIPS.srcs/sources_1/new/WB_Stage.v:27]
+INFO: [VRFC 10-2458] undeclared symbol in2, assumed default net type wire [C:/Users/sunfl/verilog/MIPS/MIPS.srcs/sources_1/new/WB_Stage.v:28]
+INFO: [VRFC 10-2458] undeclared symbol sel, assumed default net type wire [C:/Users/sunfl/verilog/MIPS/MIPS.srcs/sources_1/new/WB_Stage.v:29]
+INFO: [VRFC 10-2458] undeclared symbol out, assumed default net type wire [C:/Users/sunfl/verilog/MIPS/MIPS.srcs/sources_1/new/WB_Stage.v:30]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/sunfl/verilog/MIPS/MIPS.srcs/sources_1/new/branch_adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Branch_adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/sunfl/verilog/MIPS/MIPS.srcs/sources_1/new/pc_4.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pc_4
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/sunfl/verilog/MIPS/MIPS.srcs/sources_1/new/pipe_mips.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pipe_mips
+INFO: [VRFC 10-2458] undeclared symbol jump_pc, assumed default net type wire [C:/Users/sunfl/verilog/MIPS/MIPS.srcs/sources_1/new/pipe_mips.v:54]
+INFO: [VRFC 10-2458] undeclared symbol pipe_inc_pc, assumed default net type wire [C:/Users/sunfl/verilog/MIPS/MIPS.srcs/sources_1/new/pipe_mips.v:58]
+INFO: [VRFC 10-2458] undeclared symbol pipe_instruction, assumed default net type wire [C:/Users/sunfl/verilog/MIPS/MIPS.srcs/sources_1/new/pipe_mips.v:59]
+INFO: [VRFC 10-2458] undeclared symbol inc_pc, assumed default net type wire [C:/Users/sunfl/verilog/MIPS/MIPS.srcs/sources_1/new/pipe_mips.v:72]
+INFO: [VRFC 10-2458] undeclared symbol instruction, assumed default net type wire [C:/Users/sunfl/verilog/MIPS/MIPS.srcs/sources_1/new/pipe_mips.v:73]
+INFO: [VRFC 10-2458] undeclared symbol pipe_rt, assumed default net type wire [C:/Users/sunfl/verilog/MIPS/MIPS.srcs/sources_1/new/pipe_mips.v:76]
+INFO: [VRFC 10-2458] undeclared symbol pipe_rd, assumed default net type wire [C:/Users/sunfl/verilog/MIPS/MIPS.srcs/sources_1/new/pipe_mips.v:77]
+INFO: [VRFC 10-2458] undeclared symbol pipe_imm26, assumed default net type wire [C:/Users/sunfl/verilog/MIPS/MIPS.srcs/sources_1/new/pipe_mips.v:78]
+INFO: [VRFC 10-2458] undeclared symbol pipe_rs_val, assumed default net type wire [C:/Users/sunfl/verilog/MIPS/MIPS.srcs/sources_1/new/pipe_mips.v:79]
+INFO: [VRFC 10-2458] undeclared symbol pipe_rt_val, assumed default net type wire [C:/Users/sunfl/verilog/MIPS/MIPS.srcs/sources_1/new/pipe_mips.v:80]
+INFO: [VRFC 10-2458] undeclared symbol pipe_imm32, assumed default net type wire [C:/Users/sunfl/verilog/MIPS/MIPS.srcs/sources_1/new/pipe_mips.v:81]
+INFO: [VRFC 10-2458] undeclared symbol pipe_WB, assumed default net type wire [C:/Users/sunfl/verilog/MIPS/MIPS.srcs/sources_1/new/pipe_mips.v:83]
+INFO: [VRFC 10-2458] undeclared symbol pipe_M, assumed default net type wire [C:/Users/sunfl/verilog/MIPS/MIPS.srcs/sources_1/new/pipe_mips.v:84]
+INFO: [VRFC 10-2458] undeclared symbol pipe_EX, assumed default net type wire [C:/Users/sunfl/verilog/MIPS/MIPS.srcs/sources_1/new/pipe_mips.v:85]
+INFO: [VRFC 10-2458] undeclared symbol rs_val, assumed default net type wire [C:/Users/sunfl/verilog/MIPS/MIPS.srcs/sources_1/new/pipe_mips.v:109]
+INFO: [VRFC 10-2458] undeclared symbol rt_val, assumed default net type wire [C:/Users/sunfl/verilog/MIPS/MIPS.srcs/sources_1/new/pipe_mips.v:110]
+INFO: [VRFC 10-2458] undeclared symbol pipe_zero, assumed default net type wire [C:/Users/sunfl/verilog/MIPS/MIPS.srcs/sources_1/new/pipe_mips.v:112]
+INFO: [VRFC 10-2458] undeclared symbol pipe_dest, assumed default net type wire [C:/Users/sunfl/verilog/MIPS/MIPS.srcs/sources_1/new/pipe_mips.v:113]
+INFO: [VRFC 10-2458] undeclared symbol pipe_j_pc, assumed default net type wire [C:/Users/sunfl/verilog/MIPS/MIPS.srcs/sources_1/new/pipe_mips.v:114]
+INFO: [VRFC 10-2458] undeclared symbol pipe_branch_pc, assumed default net type wire [C:/Users/sunfl/verilog/MIPS/MIPS.srcs/sources_1/new/pipe_mips.v:115]
+INFO: [VRFC 10-2458] undeclared symbol pipe_alu_result, assumed default net type wire [C:/Users/sunfl/verilog/MIPS/MIPS.srcs/sources_1/new/pipe_mips.v:116]
+INFO: [VRFC 10-2458] undeclared symbol WB, assumed default net type wire [C:/Users/sunfl/verilog/MIPS/MIPS.srcs/sources_1/new/pipe_mips.v:119]
+INFO: [VRFC 10-2458] undeclared symbol M, assumed default net type wire [C:/Users/sunfl/verilog/MIPS/MIPS.srcs/sources_1/new/pipe_mips.v:121]
+INFO: [VRFC 10-2458] undeclared symbol pipe_JR, assumed default net type wire [C:/Users/sunfl/verilog/MIPS/MIPS.srcs/sources_1/new/pipe_mips.v:124]
+INFO: [VRFC 10-2458] undeclared symbol dest, assumed default net type wire [C:/Users/sunfl/verilog/MIPS/MIPS.srcs/sources_1/new/pipe_mips.v:134]
+INFO: [VRFC 10-2458] undeclared symbol alu_result, assumed default net type wire [C:/Users/sunfl/verilog/MIPS/MIPS.srcs/sources_1/new/pipe_mips.v:136]
+INFO: [VRFC 10-2458] undeclared symbol pipe_ReadData, assumed default net type wire [C:/Users/sunfl/verilog/MIPS/MIPS.srcs/sources_1/new/pipe_mips.v:140]
+INFO: [VRFC 10-2458] undeclared symbol MemtoReg, assumed default net type wire [C:/Users/sunfl/verilog/MIPS/MIPS.srcs/sources_1/new/pipe_mips.v:156]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/sunfl/verilog/MIPS/MIPS.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:07 . Memory (MB): peak = 769.082 ; gain = 0.000
+INFO: [USF-XSim-69] 'compile' step finished in '7' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/sunfl/verilog/MIPS/MIPS.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto 4932ffe9beab4d129b21964b3d6cd324 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot pipe_mips_behav xil_defaultlib.pipe_mips xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+ERROR: [VRFC 10-3180] cannot find port 'Instruction' on this module [C:/Users/sunfl/verilog/MIPS/MIPS.srcs/sources_1/new/pipe_mips.v:59]
+ERROR: [VRFC 10-3180] cannot find port 'ID_inc_pc' on this module [C:/Users/sunfl/verilog/MIPS/MIPS.srcs/sources_1/new/pipe_mips.v:58]
+ERROR: [VRFC 10-3180] cannot find port 'Jump_pc' on this module [C:/Users/sunfl/verilog/MIPS/MIPS.srcs/sources_1/new/pipe_mips.v:54]
+ERROR: [VRFC 10-3180] cannot find port 'Current_pc' on this module [C:/Users/sunfl/verilog/MIPS/MIPS.srcs/sources_1/new/IF_Stage.v:37]
+ERROR: [VRFC 10-3180] cannot find port 'Next_pc' on this module [C:/Users/sunfl/verilog/MIPS/MIPS.srcs/sources_1/new/IF_Stage.v:36]
+ERROR: [VRFC 10-3180] cannot find port 'Inc_pc' on this module [C:/Users/sunfl/verilog/MIPS/MIPS.srcs/sources_1/new/IF_Stage.v:42]
+ERROR: [VRFC 10-3180] cannot find port 'Current_pc' on this module [C:/Users/sunfl/verilog/MIPS/MIPS.srcs/sources_1/new/IF_Stage.v:41]
+ERROR: [VRFC 10-3180] cannot find port 'Instruction' on this module [C:/Users/sunfl/verilog/MIPS/MIPS.srcs/sources_1/new/IF_Stage.v:48]
+ERROR: [VRFC 10-3180] cannot find port 'Current_pc' on this module [C:/Users/sunfl/verilog/MIPS/MIPS.srcs/sources_1/new/IF_Stage.v:46]
+ERROR: [VRFC 10-3180] cannot find port 'Next_pc' on this module [C:/Users/sunfl/verilog/MIPS/MIPS.srcs/sources_1/new/IF_Stage.v:56]
+ERROR: [VRFC 10-3180] cannot find port 'PCsel' on this module [C:/Users/sunfl/verilog/MIPS/MIPS.srcs/sources_1/new/IF_Stage.v:55]
+ERROR: [VRFC 10-3180] cannot find port 'Branch_pc' on this module [C:/Users/sunfl/verilog/MIPS/MIPS.srcs/sources_1/new/IF_Stage.v:54]
+ERROR: [VRFC 10-3180] cannot find port 'jump_pc' on this module [C:/Users/sunfl/verilog/MIPS/MIPS.srcs/sources_1/new/IF_Stage.v:53]
+ERROR: [VRFC 10-3180] cannot find port 'inc_pc' on this module [C:/Users/sunfl/verilog/MIPS/MIPS.srcs/sources_1/new/IF_Stage.v:52]
+ERROR: [VRFC 10-3180] cannot find port 'pipe_inc_pc' on this module [C:/Users/sunfl/verilog/MIPS/MIPS.srcs/sources_1/new/IF_Stage.v:63]
+ERROR: [VRFC 10-3180] cannot find port 'inc_pc' on this module [C:/Users/sunfl/verilog/MIPS/MIPS.srcs/sources_1/new/IF_Stage.v:62]
+ERROR: [VRFC 10-3180] cannot find port 'pipe_instruction' on this module [C:/Users/sunfl/verilog/MIPS/MIPS.srcs/sources_1/new/IF_Stage.v:70]
+ERROR: [VRFC 10-3180] cannot find port 'Instruction' on this module [C:/Users/sunfl/verilog/MIPS/MIPS.srcs/sources_1/new/IF_Stage.v:69]
+ERROR: [VRFC 10-3180] cannot find port 'EX_EX' on this module [C:/Users/sunfl/verilog/MIPS/MIPS.srcs/sources_1/new/pipe_mips.v:85]
+INFO: [#UNDEF] Sorry, too many errors..
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/Users/sunfl/verilog/MIPS/MIPS.sim/sim_1/behav/xsim/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'C:/Users/sunfl/verilog/MIPS/MIPS.sim/sim_1/behav/xsim/elaborate.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:09 . Memory (MB): peak = 769.082 ; gain = 0.000
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+exit
+INFO: [Common 17-206] Exiting Vivado at Fri May 12 20:38:42 2023...
